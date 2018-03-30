@@ -1,0 +1,97 @@
+history
+    1  git -v
+    2  git --version
+    3  git push --set-upstream origin testbranch
+    4  git init testbranch
+    5  cd testbranch/
+    6  vim test.php
+    7  ls -l
+    8  git add test.php
+    9  git commit -m "test file"
+   10  git push origin https://github.com/tvijay24/testbranch
+   11  git push origin https://github.com/tvijay24/testbranch.git
+   12  git remote add origin https://github.com/tvijay24/testbranch.git
+   13  git push --all origin
+   14  ls -l
+   15  git status
+   16  cd ..
+   17  ls
+   18  cd testbranch/
+   19  vim test1.php
+   20  git add test1.php
+   21  ls -l
+   22  cd ..
+   23  ls -l
+   24  git branch
+   25  git merge testbranch
+   26  git status
+   27  cd testbranch
+   28  ls -l
+   29  git statis
+   30  git status
+   31  mkdir myproject.git
+   32  cd myproject.git/
+   33  ls -l
+   34  git --bare init
+   35  ls
+   36  cd ..
+   37  cd myproject
+   38  cd myproject.git
+   39  ll
+   40  mkdir mytestproject
+   41  ks
+   42  ls -l
+   43  cd ..
+   44  cd ..
+   45  ls
+   46  mkdir myproject
+   47  cd myproject/
+   48  git init
+   49  vim test.php
+   50  ls -l
+   51  git status
+   52  git add
+   53  git add test.php .php
+   54  git add test.php
+   55  git status
+   56  git commit -m "First git exmple"
+   57  git branch
+   58  git branch newbranch
+   59  ls -l
+   60  git branch
+   61  git remote add origin https://github.com/tvijay24/testbranch.git
+   62  git push -u origin master
+   63  ls -l
+   64  git branch
+   65  git branch newbranch
+   66  cd newbranch
+   67  git add branch newbranch
+   68  git add newbranch
+   69  ls -l
+   70  cd
+   71  ls -l
+   72  ls -l
+   73  git status
+   74  git branch
+   75  git branch
+   76  git log
+   77  pwd
+   78  mkdir myproject
+   79  cd myproject
+   80  git clone https://github.com/tvijay24/testbranch.git
+   81  ls -l
+   82  cd testbranch/
+   83  git branch trunk
+   84  git branch -a
+   85  git checkout trunk
+   86  vim test.php
+   87  git add .
+   88  git add .
+   89  git add .
+   90  git add test.php
+   91  git status
+   92  git commit -m "first test file for commit"
+   93  git status
+   94  git push --set-upstream origin trunk
+   95  git remote -v
+   96  history
